@@ -31,7 +31,7 @@ const Home = () => {
         href='/projects'
         target='_blank'
       >
-        Please View My Work
+        View My Work
       </a>
     </>
   )
