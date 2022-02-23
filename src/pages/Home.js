@@ -1,4 +1,5 @@
-import { Card, Container, Button, Row, Col } from 'react-bootstrap'
+import { Route, Switch, Link} from 'react-router-dom'
+import { Card } from 'react-bootstrap'
 
 const Home = () => {
   return (
@@ -16,8 +17,8 @@ const Home = () => {
         <p className='text-white'>
           Hi, I’m Sean Barr.
           <br></br>
-          Thank you for visting my GitHub Website.
-          I'm located in the Greater NYC Area.
+          Thank you for visting my GitHub Website. I'm located in the Greater
+          NYC Area.
           <br></br>
           I’m currently enrolled in MIT xPRO's Professional Certificate in
           Coding: Full Stack Development with MERN.
@@ -27,7 +28,8 @@ const Home = () => {
         </p>
       </Card>
       <a
-        className='btn btn-outline-light pb-1 btn-md mt-3 d-flex align-items-center justify-content-center'
+        className='btn btn-outline-light pb-2 btn-lg mt-5 d-flex align-items-center justify-content-center'
+        style={{ width: '15.625rem', height: '5.25rem', margin: 'auto' }}
         href='/projects'
         target='_blank'
       >
