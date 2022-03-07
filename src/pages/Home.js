@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap'
 const Home = () => {
   return (
     <>
-      <h1 className='text-white d-flex align-items-center justify-content-center fw-bold text-large'>
-        Sean Barr
+      <h1 className='text-black d-flex align-items-center justify-content-center fw-bold text-large'>
+        Sean's Portfolio
       </h1>
       <h2 class='text-medium text-white text-uppercase d-flex align-items-center justify-content-center'>
         Full-Stack Developer
