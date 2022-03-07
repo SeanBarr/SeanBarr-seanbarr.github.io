@@ -28,11 +28,11 @@ const Home = () => {
         </p>
       </Card>
       <Link
-        className='btn btn-outline-light pb-2 btn-lg mt-5 d-flex align-items-center justify-content-center'
-        style={{ width: '15.625rem', height: '5.25rem', margin: 'auto' }}
         to='/projects'
+        className='btn btn-outline-danger pb-2 btn-lg mt-5 d-flex align-items-center justify-content-center'
+        style={{ width: '15.625rem', height: '4.25rem', margin: 'auto' }}
       >
-        Please View My Work
+        View My Work
       </Link>
     </>
   )
